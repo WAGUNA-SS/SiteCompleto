@@ -21,7 +21,9 @@ header {
     height: 100px;
     padding: 10px;
     text-align: center;
-    background-image: url();
+    background-image: url(imagens/icones/Design\ sem\ nome.png);
+    background-position: center center;
+    
 }
 
 
