@@ -18,10 +18,10 @@ body{
 }
 
 header {
-    height: 100px;
+    height: 100wh;
     padding: 10px;
     text-align: center;
-    background-image: url(imagens/icones/Design\ sem\ nome.png);
+    background-image: url(imagens/Design\ sem\ nome.jpg);
     background-position: center center;
     
 }
