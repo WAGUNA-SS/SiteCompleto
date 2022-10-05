@@ -5,6 +5,9 @@
 :root {
     --font1: arial, verdana, Times;
     --font2: 'Nunito+Sans', 'cursive';
+    --cor1: #fd6809;
+    --cor2: #ff944e;
+    --cor3: white;
 }
 
 *{
@@ -18,13 +21,34 @@ body{
 }
 
 header {
-    height: 100wh;
+    height: 80px;
     padding: 10px;
     text-align: center;
     background-image: url(imagens/Design\ sem\ nome.jpg);
     background-position: center center;
+    color: white;
+    
+}
+
+header>p {
+    color:white;
+    padding-top: 15px;
     
 }
 
 
+nav {
+    background-color: #ff944e;
+    padding-bottom: 30px;
+    
+    
+}
 
+nav>a {
+    background-color: #fd6809;
+    padding: 5px;
+    border: 1px solid #f85002;
+    border-radius: 5px;
+    padding-bottom: 10px;
+
+}
