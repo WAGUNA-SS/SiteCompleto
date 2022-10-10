@@ -31,6 +31,7 @@ header {
 }
 
 header>p {
+    text-align: center;
     color:white;
     padding-top: 15px;
     
@@ -40,7 +41,7 @@ header>p {
 nav {
     background-color: #ff944e;
     padding-bottom: 30px;
-    
+    padding-left: 6.1vw;
     
 }
 
@@ -50,5 +51,15 @@ nav>a {
     border: 1px solid #f85002;
     border-radius: 5px;
     padding-bottom: 10px;
+    margin-left: 10px;
+}
 
+main {
+    padding: 10px;
+    font-family: var(--font2);
+}
+
+main > section.imagem1 {
+    height: 1000px;
+    background-image: url(imagens/portrait-beautiful-young-asian-woman-using-laptop-for-working-and-sitting-on-sofa-chair-in-living-room-area\ 2.jpg);
 }
