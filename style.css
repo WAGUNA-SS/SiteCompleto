@@ -24,34 +24,44 @@ header {
     height: 80px;
     padding: 10px;
     text-align: center;
-    background-image: url(imagens/Design\ sem\ nome.jpg);
-    background-position: center center;
-    color: white;
-    
+    background-color: white;
+    border: 1px solid var(--cor1);
+}
+header>h1 {
+    color: var(--cor1);
+    font-weight: bold;
 }
 
 header>p {
     text-align: center;
-    color:white;
+    color:var(--cor2);
     padding-top: 15px;
+    font-weight: bold;
     
 }
 
 
 nav {
-    background-color: #ff944e;
-    padding-bottom: 30px;
+    background-color: white;
+    padding: 15px;
     padding-left: 6.1vw;
+    
     
 }
 
 nav>a {
-    background-color: #fd6809;
     padding: 5px;
-    border: 1px solid #f85002;
-    border-radius: 5px;
     padding-bottom: 10px;
     margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+nav > a:hover {
+    color: var(--cor1);
+    text-decoration: underline;
+    transition-duration: .5s;
 }
 
 main {
@@ -62,4 +72,17 @@ main {
 main > section.imagem1 {
     height: 1000px;
     background-image: url(imagens/portrait-beautiful-young-asian-woman-using-laptop-for-working-and-sitting-on-sofa-chair-in-living-room-area\ 2.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+main > section > h1 {
+    text-align: right;
+    font-weight: bold;
+    font-size: clamp(1.2em,3.4vw,3em);
+    color: white;
+    padding-top: 800px;
+    
+    
 }
