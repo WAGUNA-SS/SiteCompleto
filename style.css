@@ -69,20 +69,64 @@ main {
     font-family: var(--font2);
 }
 
-main > section.imagem1 {
+main .imagem1 {
     height: 1000px;
     background-image: url(imagens/portrait-beautiful-young-asian-woman-using-laptop-for-working-and-sitting-on-sofa-chair-in-living-room-area\ 2.jpg);
-    background-position: center center;
-    background-size: cover;
+    background-position: center ;
+    
+    
     
     
 }
-main > section > h1 {
-    text-align: right;
+
+main > section {
+    background-color: var(--cor3);
+}
+
+main > section > h1 , p {
     font-weight: bold;
-    font-size: clamp(1.2em,3.4vw,3em);
+
+}
+
+main #img01 {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+main > .imagem1 > h1 {
+    display: grid;
+    text-align: right;
+    font-size: clamp(1.7em,3.4vw, 3em);
     color: white;
-    padding-top: 800px;
+    padding-top: 700px;
+    padding-right: 50px;
+    line-height: 1.1em;
+    
+}
+main > .imagem1 > p {
+    position: relative;
+    display: grid;
+    text-align: right;
+    color: white;
+    font-size: 1.3em;
+    padding-right: 50px;
+}
+
+main .imagem1 > a {
+    position: absolute;
+    margin-top: 10px;
+    right: 50px;
+    background-color: var(--cor1);
+    color: var(--cor3);
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 7px 7px 7px;
+    text-align: right;
+    text-decoration: none;
     
     
+}
+main > .imagem1 > a:hover {
+    text-decoration: none;
+    background-color: #ff944e;
 }
