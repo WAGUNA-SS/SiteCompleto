@@ -157,12 +157,14 @@ main .imagem {
     padding: 30px;
     text-align: left;
     background-color: var(--cor2);
+    color: var(--cor3);
+    
 }
 
 main .imagem > h2 {
-    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: clamp(1.8em,3vw,3em);
+    padding-top: 15px;
 }
 
 main .imagem > p {
@@ -181,4 +183,18 @@ main > .imagem > #img02 {
     margin-right: -30px;
     margin-bottom: 0px;
     margin-top: -30px;
+}
+
+main > .imagem > #img02 {
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto {
+    order: 1;
+}
+
+.texto {
+    order: 2;
 }
