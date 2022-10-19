@@ -188,35 +188,41 @@ main > .imagem > .foto {
     margin-top: -30px;
 }
 
-main > .login {
+main > .container { 
+    position: relative; 
+    margin-top: 50px;
+} 
 
+main > .container > .login {
+    display: flex; 
     background-color: #ff954e8f;
     border: 1px solid var(--cor1);
     border-radius: 10px 10px 10px;
     padding: 15px;
-    margin-top: 50px;
-    padding-bottom: 50px
-    
+    width: 80% ;
+    margin-bottom: 10px;
+    ...
     
 }
 
-main>.login>h2 , .paragrafo {
+ main> .container > .login>h2 , .paragrafo {
     color: rgba(0, 0, 0, 0.712);
 
 }
 
-main > .login > h2 {
+main > .container > .login > h2 {
     font-weight: bold;
     font-size: clamp(1.8em,3vw,3em);
 }
 
-main > .login > .paragrafo {
+main > .container > .login > .paragrafo {
     font-size: clamp(1.5em,3vw,1.6em);
     font-weight: lighter;
     padding-bottom: 20px;
+    
 }
 
-main > .login > .botaologin {
+main > .container > .login > .botaologin {
     background-color: rgb(255, 60, 0);
     padding: 15px;
     border: 1px solid var(--cor1);
@@ -224,10 +230,11 @@ main > .login > .botaologin {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    
+
 }
 
-main > .login > .botaologin:hover {
+main > .container > .login > .botaologin:hover {
     background-color: #ff944e;
     color: orangered;
 }
+
