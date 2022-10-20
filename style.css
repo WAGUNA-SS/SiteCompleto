@@ -189,23 +189,28 @@ main > .imagem > .foto {
 }
 
 main > .container { 
-    position: relative; 
+    
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 } 
 
 main > .container > .login {
-    display: flex; 
+     
     background-color: #ff954e8f;
     border: 1px solid var(--cor1);
     border-radius: 10px 10px 10px;
     padding: 15px;
-    width: 80% ;
-    margin-bottom: 10px;
-    ...
+    padding-bottom: 30px;
+    
+    
     
 }
 
  main> .container > .login>h2 , .paragrafo {
+    font-family: var(--font2);
     color: rgba(0, 0, 0, 0.712);
 
 }
@@ -235,6 +240,38 @@ main > .container > .login > .botaologin {
 
 main > .container > .login > .botaologin:hover {
     background-color: #ff944e;
-    color: orangered;
+    color: rgb(255, 69, 0);
+}
+
+footer {
+    border: 1px solid #fd6809;
+    border-bottom: white;
+    border-left: white;
+    border-right: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: var(--cor3);
+    color: var(--cor1);
+    padding: 20px;
+    margin-top: 30px;
+    font-family: var(--font2);
+    font-size: medium;
+}
+
+footer > .rodape1 {
+    padding-bottom: 17px;
+    padding-top: 17px;
+}
+
+footer > .rodape1 > .termos {
+    color: rgba(0, 0, 0, 0.486);
+}
+
+footer > .rodape1 > .termos:hover {
+    color: #fd6809;
+}
+
+footer > .rodape1 > .wcrodape > .rodape1 {
+    padding-bottom: 15px;
 }
 
