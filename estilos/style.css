@@ -69,15 +69,15 @@ main {
     font-family: var(--font2);
 }
 
-main .imagem1 {
+/* main .imagem1 { 
     height: 1000px;
-    background-image: url(imagens/portrait-beautiful-young-asian-woman-using-laptop-for-working-and-sitting-on-sofa-chair-in-living-room-area\ 2.jpg);
+    background-image: url(../imagens/portrait-beautiful-young-asian-woman-using-laptop-for-working-and-sitting-on-sofa-chair-in-living-room-area\ 2.jpg);
     background-position: center ;
     
     
     
     
-}
+}*/
 
 main > section {
     background-color: var(--cor3);
@@ -88,7 +88,7 @@ main > section > h1 , p {
 
 }
 
-main #img01 {
+ main #img01 { 
     margin-left: -10px;
     margin-right: -10px;
 }
@@ -151,7 +151,7 @@ main .normal > p {
     font-weight: lighter;
 }
 
-main .imagem {
+/* main .imagem { 
     margin-left: 30px;
     margin-right: 30px;
     padding: 30px;
@@ -173,20 +173,21 @@ main .imagem > .texto > p {
     font-weight: lighter;
     padding-bottom: 10px;
 
-}
+}*/
 
-main > .imagem > .foto {
-    background-image: url(imagens/student-online-young-cute-girl-in-glasses-and-orange-sweater-studying-on-computer-shocked.jpg);
+/* main > .imagem > .foto { 
+    background-image: url(../imagens/student-online-young-cute-girl-in-glasses-and-orange-sweater-studying-on-computer-shocked.jpg);
     height: 550px;
     
     background-position: center bottom;
-}
-main > .imagem > .foto {
+}*/
+
+/* main > .imagem > .foto { 
     margin-left: -30px;
     margin-right: -30px;
     margin-bottom: 0px;
     margin-top: -30px;
-}
+}*/
 
 main > .container { 
     

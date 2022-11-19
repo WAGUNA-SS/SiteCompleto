@@ -4,3 +4,68 @@
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    width: 100vw;
+}
+
+main .imagem1 {
+    height: 1000px;
+    background-image: url(../imagens/portrait-beautiful-young-asian-woman-using-laptop-for-working-and-sitting-on-sofa-chair-in-living-room-area\ 2.jpg);
+    background-position: center;
+    
+    width: 100vw;
+
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+main .imagem {
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    text-align: left;
+    background-color: var(--cor2);
+    color: var(--cor3);
+    padding-bottom: 0px;
+
+}
+
+main .imagem>.texto>h2 {
+    font-weight: bold;
+    font-size: clamp(1.8em, 3vw, 3em);
+    padding-top: 15px;
+    padding: 30px;
+}
+
+main .imagem>.texto>p {
+    font-size: clamp(1.5em, 3vw, 1.6em);
+    font-weight: lighter;
+    padding-bottom: 10px;
+    padding: 30px;
+
+}
+
+main>.imagem>.foto {
+    background-image: url(../imagens/student-online-young-cute-girl-in-glasses-and-orange-sweater-studying-on-computer-shocked.jpg);
+    display: block;
+    
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 375px;
+    background-position: center bottom;
+}
+
+
+
+main>.imagem>.foto {
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 0px;
+    margin-top: -30px;
+}
