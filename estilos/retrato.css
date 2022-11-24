@@ -34,38 +34,34 @@ main .imagem1 {
     height: 0px;
 } 
 
-main> .quadro {
+main> #quadro {
     background-color: var(--cor1);
     margin: 15px;
 }
 
-main> .quadro> .foto {
+main> #quadro> .foto {
     
     background-image: url(../imagens/student-online-young-cute-girl-in-glasses-and-orange-sweater-studying-on-computer-shocked.jpg);
     background-position: center bottom;
-    height: 400px;
+    height: 500px;
     
 }
 
-main .quadro>.texto {
+main #quadro>.texto {
+    height: 270px;
+    font-family: var(--font2);
     color: var(--cor3);
-    
-    
-}
-
-main .texto > h2 {
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 25px;
     font-weight: bold;
-    /* font-size: clamp(1.8em, 3vw); arrumando essa merda ainda */
-    
+    font-size: clamp(1.5em, 3vw, 3em);
+    padding-left: 30px;
 }
 
-
-
-
-
-/* main>.imagem>.foto {
-    margin-left: -30px;
-    margin-right: -30px;
-    margin-bottom: 0px;
-    margin-top: -30px;
-} */
+#quadro>.texto p {
+    padding-top: 20px;
+    font-size: clamp(0.7em, 3vw, 1.6em);
+    font-weight: lighter;
+    padding-bottom: 5px;
+}
