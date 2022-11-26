@@ -24,7 +24,7 @@ main .imagem1 {
     background-image: url(../imagens/portrait-beautiful-young-asian-woman-using-laptop-for-working-and-sitting-on-sofa-chair-in-living-room-area\ 2.jpg);
     background-position: center;
     
-    width: 100vw;
+    
 
 
 }
@@ -35,7 +35,7 @@ main .imagem1 {
 } 
 
 main> #quadro {
-    background-color: var(--cor1);
+    display: block;
     margin: 15px;
 }
 
@@ -48,8 +48,8 @@ main> #quadro> .foto {
 }
 
 main #quadro>.texto {
-    height: 270px;
-    font-family: var(--font2);
+    background-color: var(--cor1);
+    height: 300px;
     color: var(--cor3);
     padding: 15px;
     padding-top: 20px;

@@ -1,6 +1,57 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+:root {
+    --font1: arial, verdana, Times;
+    --font2: 'Nunito+Sans', 'cursive';
+    --cor1: #fd6809;
+    --cor2: #ff944e;
+    --cor3: white;
+}
+
 *{
     margin: 0px;
     padding: 0px;
+}
+
+main .imagem1 {
+    height: 1000px;
+    background-image: url(../imagens/portrait-beautiful-young-asian-woman-using-laptop-for-working-and-sitting-on-sofa-chair-in-living-room-area\ 2.jpg);
+    background-position: center;
+}
+
+main>#quadro {
+    /* background-color: var(--cor1); */
+    margin: 0px;
+}
+
+main>#quadro>.foto {
+    display: inline-block;
+    background-image: url(../imagens/student-online-young-cute-girl-in-glasses-and-orange-sweater-studying-on-computer-shocked.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 560px;
+    width: 500px;
+}
+
+main #quadro>.texto {
+    background-color: var(--cor1);
+    height: 515px;
+    width: 40%;
+    font-family: var(--font2);
+    color: var(--cor3);
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: clamp(1.5em, 3vw, 3em);
+    padding-left: 25px;
+}
+
+#quadro>.texto p {
+    padding-top: 20px;
+    font-size: clamp(0.7em, 3vw, 1.6em);
+    font-weight: lighter;
+    padding-bottom: 5px;
 }
