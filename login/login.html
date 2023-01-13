@@ -5,32 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+
+    <link rel="stylesheet" href="../estilos/registro.css">
 </head>
 <body>
-    <form action="login.php" method="post" autocomplete="on">
-        <fieldset>
-            <legend>Cadastro</legend>
+    <main>
+        <section id="login">
+            <div class="image-login"></div>
+    
+            <form action="login.php" method="post" autocomplete="on">
+        
+            <fieldset id="campo">
+            
+                <legend>Cadastro</legend>
 
-            <p>
+            
+                <div class="dados">
                 <label for="inome">Nome:</label>
                 <input type="text" name="nome" id="inome">
-            </p>
+                </div>
 
-            <p>
+                <div class="dados">
                 <label for="isenha">Senha:</label>
                 <input type="password" name="senha" id="isenha">
-            </p>
+                </div>
 
-            <p>
+                <div class="dados">
                 <label for="iemail">E-mail:</label>
                 <input type="email" name="email" id="iemail">
-            </p>
+                </div>
 
-            <p>
+                <div class="dados">
                 <label for="ipais">País:</label>
                 <select name="pais" id="ipais">
-                    <option value="" selected>--Escolha Seu País--</option>
+                    <option value="" selected>--Escolha seu país--</option>
                     <optgroup label="América dp Norte">
+                        
                         <option value="">Estados Unidos Da América</option>
 
                         <option value="">Canadá</option>
@@ -41,6 +51,7 @@
                     </optgroup>
 
                     <optgroup label="América Central">
+
                         <option value="">Bahamas</option>
 
                         <option value="">Cuba</option>
@@ -48,9 +59,11 @@
                         <option value="">Costa Rica</option>
 
                         <option value="">Jamaica</option>
+
                     </optgroup>
 
                     <optgroup label="América do Sul">
+
                         <option value="">Brasil</option>
                         <option value="">Argentina</option>
 
@@ -61,14 +74,27 @@
                         <option value="">Chile</option>
 
                         <option value="">Bolivia</option>
+
                     </optgroup>
                 </select>
-            </p>
-
-            <p>
-                
-            </p>
+            </div>
         </fieldset>
+    
     </form>
+
+
+
+    <h2>Acessar sua conta</h2>
+
+    <div class="opcoes"><a href="#">Fazer login com o Facebook</a></div>
+
+    <div class="opcoes"><a href="#">Fazerlogin com o Twitter </a></div>
+
+    <div class="opcoes"><a href="#">Fazerlogin com o Google</a></div>
+
+    <div class="opcoes"><a href="#">Fazerlogin com a Apple</a></div>
+
+</section>
+</main>
 </body>
 </html>
