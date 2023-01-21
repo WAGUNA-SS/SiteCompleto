@@ -6,6 +6,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Shippori Mincho B1', serif;
+    box-sizing: border-box;
 }
 
 body, html {
@@ -24,18 +25,26 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: azure;
+    background-color: #cacaca;
     height: 500px;
     width: 500px;
 }
 
-.image-login{
-    background: url(../imagens/logowc.jpeg);
+section#login > div#image-login{
+    display: block;
+    background: #0001 url(../imagens/logowc.jpeg) no-repeat;
+    height: 300px;
+    width: 30px;
+    background-size: cover;
 }
 
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
 
-#campo {
-    border: none;
+form > div.campo{
+    
 }
 
 .dados{

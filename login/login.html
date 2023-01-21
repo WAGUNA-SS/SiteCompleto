@@ -6,48 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../estilos/registro.css">
 </head>
 <body>
     <main>
         <section id="login">
 
-            <div class="container">
+            <div id="formulario">
             
-                <div class="image-login">imagem</div>
-    
+                <div id="image-login">img</div>
+
+                <hi>Cadastro</hi>
+                <p>Por Favor, faça seu cadastro para continuar:</p>
+
                     <form action="login.php" method="post" autocomplete="on">
-                        <fieldset>
-                            <legend>Cadastro</legend>
+                        <div class="campo" id="campo">
+                            
 
                             <div class="dados">
                                 <label for="inome">Nome:</label>
-                                <input type="text" name="nome" id="inome">
+                                <input type="text" name="nome" id="inome" placeholder="Digite seu nome" autocomplete="username" required maxlength="40" minlength="10" >
                             </div>
                             
                             <div class="dados">
                                 <label for="isenha">Senha:</label>
-                                <input type="password" name="senha" id="isenha">
+                                <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="new-password" required minlength="10" maxlength="30" >
                             </div>
                             
                             <div class="dados">
                                 <label for="iemail">E-mail:</label>
-                                <input type="email" name="email" id="iemail">
+                                <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required maxlength="30">
                             </div>
                             
                             <div class="dados">
                                 <label for="ipais">País:</label>
-                            <select name="pais" id="ipais">
+                            <select name="pais" id="ipais" required>
                                     <option value="" selected>--Escolha seu país--</option>
-                                <optgroup label="América dp Norte">
+                                <optgroup label="América do Norte">
                             
                                     <option value="">Estados Unidos Da América</option>
                             
                                     <option value="">Canadá</option>
                             
                                     <option value="">México</option>
-                            
-                                    <option value=""></option>
                                 </optgroup>
                             
                                 <optgroup label="América Central">
@@ -78,6 +80,8 @@
                                 </optgroup>
                             </select>
 
+                            <input class="botao-cadastro" type="submit" value="Cadastrar">
+
 
                             <h2>Acessar sua conta</h2>
                             
@@ -87,8 +91,8 @@
                             
                             <div class="opcoes"><a href="#">Fazer login com o Google</a></div>
                             
-                            <div class="opcoes">Fazer Login com a Apple<a href="#"></a></div>
-                        </fieldset>
+                            <div class="opcoes"><a href="#">Fazer Login com a Apple</a></div>
+                        </div>
                     </form>
 
             </div>
