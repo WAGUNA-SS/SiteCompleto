@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Lexend +Deca:wght@100;200;300;400 & display=swap');
 
 :root {
     --font1: arial, verdana, Times;
-    --font2: 'Nunito+Sans', 'cursive';
+    --font2: 'Lexend Deca';
     --cor1: #fd6809;
     --cor2: #ff944e;
     --cor3: white;
