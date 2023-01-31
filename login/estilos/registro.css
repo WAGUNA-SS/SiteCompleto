@@ -10,8 +10,8 @@
 }
 
 body, html {
-    background-color: #ff8200;
-    height: 100vh;
+    background-color: orange;
+    height: 90vh;
     width: 100vw;
 }
 
@@ -34,7 +34,7 @@ main{
 
 section#login > div#imagem {
     display: block;
-    background: rgb(255, 255, 255) url(../imagens/logowc.jpeg) no-repeat;
+    background: rgb(255, 255, 255) url(../../imagens/logowc.jpeg) no-repeat;
     height: 70px;
     width: 70px;
     background-size: contain;
@@ -64,7 +64,7 @@ div#formulario > p {
 form > p.titulo {
     display: block;
     background-color: white;
-    color: rgb(250, 134, 1);
+    color: black;
     width: 70px;
     border: 2px  solid #ff8200;
     margin-bottom: -5px;
