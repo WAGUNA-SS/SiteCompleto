@@ -9,9 +9,9 @@
     box-sizing: border-box;
 }
 
-body, html {
+html , body {
     background-color: orange;
-    height: 80%;
+    height: 100vh;
     width: 100vw;
 }
 
