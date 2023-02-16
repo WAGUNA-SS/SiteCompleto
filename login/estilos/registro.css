@@ -33,6 +33,8 @@ main{
     width: 270px;
     border-radius: 0px 20px 0px 20px;
     transform: translate(-50%, -50%);
+    transition: width .3s , height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {

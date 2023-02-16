@@ -43,4 +43,69 @@
     form > div.campo {
         margin: 7px 0px;
     }
+
+    form > input[type=submit] {
+        margin-top: 20px;
+        height: 50px;
+        font-size: 1.2em;
+    }
+
+    form > a.botao-esqueci {
+        height: 50px;
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    #login {
+        height: 650px;
+        width: 950px;
+        border-radius: 0px 40px 0px 40px;
+    }
+
+    section#login > div#imagem {
+        height: 200px;
+        width: 200px;
+        border-radius: 0px 40px 0px 0px;
+    }
+
+    section#login > div#formulario {
+        padding: 30px;
+    }
+
+    div#formulario > h1 {
+        font-size: 4em;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 130px;
+    }
+
+    div#formulario > p {
+        font-size: 1.4em;
+        margin-bottom: 30px;
+    }
+
+    form > p.titulo {
+        width: 90px;
+        padding: 10px;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    form > div.campo {
+        height: 50px;
+        font-size: 1.2em;
+    }
+
+    form > input[type=submit] {
+        height: 40px;
+        font-size: 1.2em;
+    }
+
+    form > a.botao-esqueci {
+        height: 40px;
+        padding: 5px;
+        font-size: 1.2em;
+    }
 }
