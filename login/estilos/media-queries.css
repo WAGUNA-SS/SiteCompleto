@@ -50,7 +50,7 @@
         font-size: 1.2em;
     }
 
-    form > a.botao-esqueci {
+    form > a.ja-tenho {
         height: 50px;
         padding: 15px;
     }
@@ -103,7 +103,7 @@
         font-size: 1.2em;
     }
 
-    form > a.botao-esqueci {
+    form > a.ja-tenho {
         height: 40px;
         padding: 5px;
         font-size: 1.2em;

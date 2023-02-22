@@ -124,9 +124,9 @@ form > input.cadast:hover {
     border: 2px solid #ff8200;
 }
 
-form > a.botao-esqueci {
+form > a.ja-tenho {
     display: block;
-    height: 40px;
+    height: 45px;
     width: 100%;
     background-color:white;
     margin-top: 20px;
@@ -135,15 +135,15 @@ form > a.botao-esqueci {
     text-align: center;
     color: #ff8200;
     font-size: 1em;
-    padding: 5px;
+    padding: 11px;
     text-decoration: none;
 }
 
-form> a.botao-esqueci:hover {
+form> a.ja-tenho:hover {
     background-color: #ff8200;
     color: white;
 }
 
-form > a.botao-esqueci > i {
+form > a.ja-tenho > i {
     font-size: 0.8em;
 }
