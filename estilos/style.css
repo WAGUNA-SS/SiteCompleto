@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family= Lexend +Deca:wght@100;200;300;400 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap');
 
 :root {
-    --font1: arial, verdana, Times;
-    --font2: 'Lexend Deca';
+    --font1: 'Roboto', arial, verdana, Times;
+    --font2: 'Roboto Condensed' , sans-serif;
     --cor1: #fd6809;
     --cor2: #ff944e;
     --cor3: white;
@@ -17,7 +17,7 @@
 
 body{
     background-color: var(--cor3);
-    font-family: var(--font2);
+    font-family: var(--font1);
 }
 
 header {
@@ -68,16 +68,6 @@ main {
     padding: 10px;
     font-family: var(--font2);
 }
-
-/* main .imagem1 { 
-    height: 1000px;
-    background-image: url(../imagens/portrait-beautiful-young-asian-woman-using-laptop-for-working-and-sitting-on-sofa-chair-in-living-room-area\ 2.jpg);
-    background-position: center ;
-    
-    
-    
-    
-}*/
 
 main > section {
     background-color: var(--cor3);
@@ -143,51 +133,15 @@ main .normal {
 main .normal > h2 {
     color: rgb(0, 0, 0);
     font-weight: bold;
-    font-size: clamp(1.8em,3vw,3em);
+    font-size: clamp(2.3em,3vw,3em);
+
 }
 
 main .normal > p {
+    margin-top: 10px;
     font-size: clamp(1.5em,3vw,1.6em);
     font-weight: lighter;
 }
-
-/* main .imagem { 
-    margin-left: 30px;
-    margin-right: 30px;
-    padding: 30px;
-    text-align: left;
-    background-color: var(--cor2);
-    color: var(--cor3);
-    padding-bottom: 0px;
-    
-}
-
-main .imagem > .texto > h2 {
-    font-weight: bold;
-    font-size: clamp(1.8em,3vw,3em);
-    padding-top: 15px;
-}
-
-main .imagem > .texto > p {
-    font-size: clamp(1.5em,3vw,1.6em);
-    font-weight: lighter;
-    padding-bottom: 10px;
-
-}*/
-
-/* main > .imagem > .foto { 
-    background-image: url(../imagens/student-online-young-cute-girl-in-glasses-and-orange-sweater-studying-on-computer-shocked.jpg);
-    height: 550px;
-    
-    background-position: center bottom;
-}*/
-
-/* main > .imagem > .foto { 
-    margin-left: -30px;
-    margin-right: -30px;
-    margin-bottom: 0px;
-    margin-top: -30px;
-}*/
 
 main > .container { 
     
