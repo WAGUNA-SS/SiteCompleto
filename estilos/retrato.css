@@ -19,24 +19,6 @@ body {
     width: 100vw;
 }
 
-i#burguer {
-    background-color: #fd6809;
-    color: white;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-}
-
-i#burguer:hover{
-    background-color: white;
-    color: #fd6809;
-}
-
-nav{
-    display:none;
-}
-
 main .imagem1 {
     height: 1000px;
     background-image: url(../imagens/portrait-beautiful-young-asian-woman-using-laptop-for-working-and-sitting-on-sofa-chair-in-living-room-area\ 2.jpg);
